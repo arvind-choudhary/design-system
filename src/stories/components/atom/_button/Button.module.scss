@@ -1,0 +1,23 @@
+.button {
+    background-color: var(--button-background-color, unset);
+    border-color: var(--button-border-color, unset);
+    color: var(--button-color, unset);
+    border-radius: var(--button-border-radius, unset);
+    border-style: var(--button-border-style, unset);
+    border-width: var(--button-border-width, unset);
+    box-shadow: var(--button-box-shadow, unset);
+    cursor: var(--button-cursor, unset);
+    display: var(--button-display, unset);
+    font-family: var(--button-font-family, unset);
+    font-size: var(--button-font-size, unset);
+    font-weight: var(--button-font-weight, unset);
+    line-height: var(--button-line-height, unset);
+    padding: var(--button-padding, unset);
+    text-align: var(--button-text-align, unset);
+    text-decoration: var(--button-text-decoration, unset);
+    text-transform: var(--button-text-transform, unset);
+    user-select: var(--button-user-select, unset);
+    vertical-align: var(--button-vertical-align, unset);
+    white-space: var(--button-white-space, unset);
+    word-break: var(--button-word-break, unset);
+}
