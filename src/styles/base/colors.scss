@@ -1,0 +1,28 @@
+/**    Theme Primary colors    **/
+
+$theme-primary-color: #E85B81;
+$theme-primary-dark-color: darken($theme-primary-color, 10%);
+$theme-primary-light-color: lighten($theme-primary-color, 10%);
+
+/**    Theme Secondary colors    **/
+
+$theme-secondary-color: #8CE0F3;
+$theme-secondary-dark-color: darken($theme-secondary-color, 10%);
+$theme-secondary-light-color: lighten($theme-secondary-color, 10%);
+
+/**    Theme Alternative colors    **/
+
+$theme-alternative-color: #5E48E8;
+$theme-alternative-dark-color: darken($theme-alternative-color, 10%);
+$theme-alternative-light-color: lighten($theme-alternative-color, 10%);
+
+/**    Theme Gray colors    **/ 
+
+$theme-gray: #E1E1E1;
+$theme-dark-gray: #B5B5B5;
+$theme-darkest-gray: #505050;
+
+/**    Theme Black colors    **/
+
+$theme-black: #252525;
+$theme-white: #FFFFFF;

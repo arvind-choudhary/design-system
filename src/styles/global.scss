@@ -1,0 +1,83 @@
+@import './base/colors.scss';
+@import './base/typography.scss';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+    /**     Theme Colors      **/
+
+    --primary-color: var(--theme-primary-color, #{$theme-primary-color});
+    --primary-light-color: var(--theme-primary-light-color, #{$theme-primary-light-color});
+    --primary-dark-color: var(--theme-primary-dark-color, #{$theme-primary-dark-color});
+
+    --secondary-color: var(--theme-secondary-color, #{$theme-secondary-color});
+    --secondary-light-color: var(--theme-secondary-light-color, #{$theme-secondary-light-color});
+    --secondary-dark-color: var(--theme-secondary-dark-color, #{$theme-secondary-dark-color});
+
+    --alternative-color: var(--theme-alternative-color, #{$theme-alternative-color});
+    --alternative-light-color: var(--theme-alternative-light-color, #{$theme-alternative-light-color});
+    --alternative-dark-color: var(--theme-alternative-dark-color, #{$theme-alternative-dark-color});
+
+    --gray-color: var(--theme-gray, #{$theme-gray});
+    --dark-gray-color: var(--theme-dark-gray, #{$theme-dark-gray});
+    --darkest-gray-color: var(--theme-darkest-gray, #{$theme-darkest-gray});
+
+    --black-color: var(--theme-black, #{$theme-black});
+    --white-color: var(--theme-white, #{$theme-white});
+
+
+    /**               Font Sizes              **/
+    --h1-fs: var(--h1-font-size, #{$h1-font-size});
+    --h2-fs: var(--h2-font-size, #{$h2-font-size});
+    --h3-fs: var(--h3-font-size, #{$h3-font-size});
+    --h4-fs: var(--h4-font-size, #{$h4-font-size});
+    --h5-fs: var(--h5-font-size, #{$h5-font-size});
+
+    --default-fs: var(--default-font-size, #{$default-font-size});
+    --default-small-fs: var(--default-small-font-size, #{$default-small-font-size});
+
+
+}
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: var(--default-fs);
+}
+
+p {
+    font-size: inherit;
+}
+
+span, i {
+    font-size: var(--default-small-fs);
+}
+
+.h1 {
+    font-size: var(--h1-fs);
+}
+
+.h2 {
+    font-size: var(--h2-fs);
+}
+
+.h3 {
+    font-size: var(--h3-fs);
+}
+
+.h4 {
+    font-size: var(--h4-fs);
+}
+
+.h5 {
+    font-size: var(--h5-fs);
+}
