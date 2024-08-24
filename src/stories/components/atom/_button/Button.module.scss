@@ -21,3 +21,7 @@
     white-space: var(--button-white-space, unset);
     word-break: var(--button-word-break, unset);
 }
+
+.button-secondry {
+    --button-background-color: var(--secondary);
+}
