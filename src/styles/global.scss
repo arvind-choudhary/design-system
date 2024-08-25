@@ -1,10 +1,6 @@
 @import './base/colors.scss';
 @import './base/typography.scss';
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 :root {
 
     /**     Theme Colors      **/
@@ -54,7 +50,7 @@ body {
     font-size: var(--default-fs);
 }
 
-p {
+p, button {
     font-size: inherit;
 }
 
