@@ -1,27 +1,66 @@
 .button {
-    background-color: var(--button-background-color, unset);
-    border-color: var(--button-border-color, unset);
-    color: var(--button-color, unset);
-    border-radius: var(--button-border-radius, unset);
-    border-style: var(--button-border-style, unset);
-    border-width: var(--button-border-width, unset);
-    box-shadow: var(--button-box-shadow, unset);
-    cursor: var(--button-cursor, unset);
-    display: var(--button-display, unset);
-    font-family: var(--button-font-family, unset);
-    font-size: var(--button-font-size, unset);
-    font-weight: var(--button-font-weight, unset);
-    line-height: var(--button-line-height, unset);
-    padding: var(--button-padding, unset);
-    text-align: var(--button-text-align, unset);
-    text-decoration: var(--button-text-decoration, unset);
-    text-transform: var(--button-text-transform, unset);
-    user-select: var(--button-user-select, unset);
-    vertical-align: var(--button-vertical-align, unset);
-    white-space: var(--button-white-space, unset);
-    word-break: var(--button-word-break, unset);
+    background-color: unset;
+    color: unset;
+    border: unset;
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    padding-right: 60px;
+    cursor: pointer;
 }
 
-.button-secondry {
-    --button-background-color: var(--secondary);
+.button-primary {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    &:hover {
+        background-color: var(--primary-light-color);
+    }
+}
+
+.button-primary-dark {
+    background-color: var(--primary-dark-color);
+    color: var(--white-color);
+    &:hover {
+        background-color: var(--primary-light-color);
+    }
+}
+
+.button-alternative {
+    background-color: var(--alternative-color);
+    color: var(--white-color);
+    &:hover {
+        background-color: var(--alternative-light-color);
+    }
+}
+
+.button-alternative-dark {
+    background-color: var(--alternative-dark-color);
+    color: var(--white-color);
+    &:hover {
+        background-color: var(--alternative-light-color);
+    }
+}
+
+.button-secondary {
+    background-color: transparent;
+    border: 1px solid #B5B5B5;
+    &:hover {
+        border: 1px solid var(--black-color);
+    }
+}
+
+.button-secondary-light {
+    background-color: transparent;
+    border: 1px solid #B5B5B5 ;
+}
+
+.button-secondary-dark {
+    background-color: transparent;
+    border: 1px solid var(--black-color);
+}
+
+.button-disabled {
+    opacity: 0.3;
+    pointer-events: none;
 }
