@@ -1,0 +1,29 @@
+.tab {
+    background: unset;
+    border: unset;
+    color: var(--tab-font-color, --black-color);
+    font-weight: var(--tab-font-weight, 400);
+}
+
+.tab-primary {
+    &:hover, &.active {
+        border-bottom: 2px solid var(--primary-color);
+    }
+}
+
+.tab-secondary {
+    &:hover, &.active {
+        border-bottom: 2px solid var(--secondary-color);
+    }
+}
+
+.tab-alternative {
+    &:hover, &.active {
+        border-bottom: 2px solid var(--black-color);
+    }
+}
+
+.tab-disabled {
+    opacity: 0.3;
+    pointer-events: none;
+}
